@@ -27,7 +27,7 @@ class CustomIntro : AppIntro2() {
             ed.commit()
         }
 
-        setTransformer(AppIntroPageTransformerType.Fade)
+        setTransformer(AppIntroPageTransformerType.Depth)
         isIndicatorEnabled = true
         setProgressIndicator()
 

@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">IntroSlider</string>
+    <string name="hello_this_is_first_screen">Hello this is first screen</string>
+    <string name="hello_this_is_third_screen">Hello this is third screen</string>
+    <string name="hello_this_is_second_screen">Hello this is second screen</string>
 </resources>

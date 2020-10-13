@@ -11,8 +11,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:text="Hello this is third screen"
-        android:textColor="#ffff"
+        android:text="@string/hello_this_is_third_screen"
+        android:textColor="@color/white_color"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

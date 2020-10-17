@@ -8,7 +8,7 @@ import android.view.WindowManager
 import androidx.fragment.app.Fragment
 
 
-class secondScreenFragment : Fragment() {
+class ScreenTwo : Fragment() {
     private var parentView: View? = null
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         parentView = inflater.inflate(R.layout.intro_screen_two, container, false)

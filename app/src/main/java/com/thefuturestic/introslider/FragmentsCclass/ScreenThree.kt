@@ -8,10 +8,10 @@ import android.view.WindowManager
 import androidx.fragment.app.Fragment
 
 
-class firstScreenFragment : Fragment() {
+class ScreenThree : Fragment() {
     private var parentView: View? = null
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        parentView = inflater.inflate(R.layout.intro_screen_one, container, false)
+        parentView = inflater.inflate(R.layout.intro_screen_three, container, false)
         getActivity()!!.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         return parentView
